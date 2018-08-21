@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-export CUDA_VISIBLE_DEVICES=''
+
 data_path = 'train.tfrecords'  # address to save the hdf5 file
 
 with tf.Session() as sess:
